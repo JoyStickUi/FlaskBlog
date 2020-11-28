@@ -1,0 +1,20 @@
+
+class DefaultConfig(object):
+	DEBUG = True
+
+	SECRET_KEY = 'GFGgergegEt4grefg4t43g35y7434gf'
+	COOKIE_SECURE = 'Secure'
+
+	SQLALCHEMY_TRACK_MODIFICATIONS = False
+	SQLALCHEMY_DATABASE_URI = 'sqlite:///sqlite3.db'
+
+	SECURITY_PASSWORD_SALT = 'salt'
+	SECURITY_PASSWORD_HASH = 'bcrypt'
+	SECURITY_REGISTERABLE = True
+
+	MAIL_SERVER='smtp.gmail.com'
+	MAIL_PORT=587
+	MAIL_USE_SSL=False
+	MAIL_USERNAME=''
+	MAIL_PASSWORD=''
+	MAIL_USE_TLS=True
